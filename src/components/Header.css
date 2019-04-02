@@ -1,0 +1,46 @@
+.header {
+    background-color: rgb(197, 197, 197);
+    border-bottom: 2px solid #1478BB
+}
+
+.headerLinks {
+    position: sticky!important;
+    top: 0px!important;
+    z-index: 9;
+}
+
+#addon-wrapping {
+    border-radius: 0 5px 5px 0;
+    background-color: #1E7CBB;
+    border-color: transparent;
+    color: white
+}
+
+.form-control,
+.form-control::placeholder {
+    color: #A4A8A3!important;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0rem transparent!important;
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5,
+.link6 {
+    font-size: 24px;
+    color: #1478BB
+}
+
+@media (max-width: 767.98px) {
+    .links  {
+        position: sticky!important;
+        top: 0px!important;
+    }
+}

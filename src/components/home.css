@@ -1,0 +1,19 @@
+#linksHome {
+    border-right: 2px solid #1478BB;
+    background-color: #C5C5C5;
+    overflow: auto;
+}
+
+#Posts {
+    overflow: auto;
+}
+
+.linkHome {
+    font-size: 18px;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #1478BB;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
